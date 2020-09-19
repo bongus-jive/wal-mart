@@ -1,0 +1,58 @@
+{
+  "objectName" : "pat_walmart",
+  "colonyTags" : ["outpost","commerce"],
+  "rarity" : "Essential",
+  "category" : "other",
+  "description" : "what the fuck",
+  "shortdescription" : "Wal mart",
+  "race" : "generic",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Wal mart",
+        "subtitle" : " walmar"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.25,
+    "items" : [
+      { "item" : "pat_almond" },
+      { "item" : "pat_cashew" }
+    ]
+  },
+  "printable" : false,
+  "lightColor" : [75, 75, 75],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "walmart_left.png:<color>", "fullbright" : true }, { "image" : "walmart_left_lit.png:<color>" } ],
+      "direction" : "left",
+
+      "lightPosition" : [-2, 4],
+
+      "imagePosition" : [-88, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "walmart_right.png:<color>", "fullbright" : true }, { "image" : "walmart_right_lit.png:<color>" } ],
+      "direction" : "right",
+
+      "lightPosition" : [1, 4],
+
+      "imagePosition" : [-88, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

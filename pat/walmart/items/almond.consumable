@@ -1,0 +1,15 @@
+{
+  "itemName" : "pat_almond",
+  "rarity" : "Legendary",
+  "price" : 6,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "almond.png",
+  "description" : "sad",
+  "shortdescription" : "almond",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "maxStack" : 1,
+  "blockingEffects" : ["wellfed"],
+  "radioMessagesOnPickup" : [ "pat_almond" ]
+}
