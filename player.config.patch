@@ -1,0 +1,3 @@
+﻿[
+	{ "op": "add", "path": "/deploymentConfig/scripts/-", "value": "/pat/walmart/walmart_player.lua" }
+]
