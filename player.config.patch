@@ -1,3 +1,7 @@
 ﻿[
-	{ "op": "add", "path": "/deploymentConfig/scripts/-", "value": "/pat/walmart/walmart_player.lua" }
+	{
+		"op" : "add",
+    "path": "/genericScriptContexts/walmartflag",
+		"value" : "/pat/walmart/walmart_player.lua"
+	}
 ]

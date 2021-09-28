@@ -1,5 +1,3 @@
-local oldInit = init or function() end
-function init(...)
-	oldInit(...)
+function init()
 	player.setUniverseFlag("pat_walmart")
 end
