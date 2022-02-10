@@ -1,14 +1,14 @@
 function init()
 	storage.stolen = storage.stolen or false
 	
-	local exists = root.assetJson("/pat/walmartpole.object")
+	local exists = not not root.assetJson("/versioning.config").pat_walmartpole
 	
 	if storage.stolen then
-		exists = nil
+		exists = false
 		animator.setAnimationState("pole", "1")
 	end
 	
-	object.setInteractive(exists ~= nil)
+	object.setInteractive(exists)
 end
 
 function onInteraction(args)
