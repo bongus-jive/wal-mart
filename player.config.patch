@@ -1,7 +1,0 @@
-﻿[
-	{
-		"op" : "add",
-    "path": "/genericScriptContexts/walmartflag",
-		"value" : "/pat/walmart/walmart_player.lua"
-	}
-]
