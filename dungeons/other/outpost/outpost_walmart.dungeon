@@ -1,24 +1,24 @@
 {
-  "metadata" : {
-    "name" : "outpost_walmart",
-    "species" : "generic",
-    "rules" : [
+  "metadata": {
+    "name": "outpost_walmart",
+    "species": "generic",
+    "rules": [
     ],
 
-    "anchor" : [ "outpost_walmart" ],
+    "anchor": [ "outpost_walmart" ],
 
-    "maxRadius" : 1000000,
-    "maxParts" : 1,
-    "protected" : true
+    "maxRadius": 1000000,
+    "maxParts": 1,
+    "protected": true
   },
 
-  "parts" : [
+  "parts": [
     {
-      "name" : "outpost_walmart",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
+      "name": "outpost_walmart",
+      "rules": [
+        [ "maxSpawnCount", [ 1 ] ]
       ],
-      "def" : [ "tmx", "outpost_walmart.json" ]
+      "def": [ "tmx", "outpost_walmart.json" ]
     }
   ]
 }

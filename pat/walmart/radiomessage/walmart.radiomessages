@@ -1,14 +1,14 @@
 {
-  "pat_almond" : {
-		"senderName" : "yes",
-		"portraitImage" : "/pat/walmart/radiomessage/walmart.png:sad",
-		"text" : "goes to wal mart                                    \n\nbuys almond",
-		"unique" : false
-  },
-  "pat_cashew" : {
-		"senderName" : "yes",
-		"portraitImage" : "/pat/walmart/radiomessage/walmart.png:smerk",
-		"text" : "goes to wal mart                                    \n\nbuys cashew",
-		"unique" : false
-  }
+	"pat_almond": {
+		"senderName": "yes",
+		"portraitImage": "/pat/walmart/radiomessage/walmart.png:sad",
+		"text": "goes to wal mart                                    \n\nbuys almond",
+		"unique": false
+	},
+	"pat_cashew": {
+		"senderName": "yes",
+		"portraitImage": "/pat/walmart/radiomessage/walmart.png:smerk",
+		"text": "goes to wal mart                                    \n\nbuys cashew",
+		"unique": false
+	}
 }

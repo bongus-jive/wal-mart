@@ -3,10 +3,10 @@
     "op": "add",
     "path": "/outpost_mission1/actions/-",
     "value": {
-			"type": "placeDungeon",
-			"dungeonId": "outpost_walmart",
-			"targetInstance": "outpost",
-			"targetPosition": [-50, 611]
-		}
+      "type": "placeDungeon",
+      "dungeonId": "outpost_walmart",
+      "targetInstance": "outpost",
+      "targetPosition": [ -50, 611 ]
+    }
   }
 ]

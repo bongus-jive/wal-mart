@@ -1,32 +1,32 @@
 {
-  "objectName" : "pat_walmartpolespawner",
-  "colonyTags" : ["misc"],
-  "rarity" : "Common",
-  "category" : "walmart pole",
-  "race" : "generic",
-  "price" : 0,
-	
-  "description" : "walmart pole",
-  "shortdescription" : "walmart pole",
-	
-	"breakDropOptions" : [],
+  "objectName": "pat_walmartpolespawner",
+  "colonyTags": [ "misc" ],
+  "rarity": "Common",
+  "category": "walmart pole",
+  "race": "generic",
+  "price": 0,
 
-  "inventoryIcon" : "walmartpole.png",
-  "orientations" : [
+  "description": "walmart pole",
+  "shortdescription": "walmart pole",
+
+  "breakDropOptions": [ ],
+
+  "inventoryIcon": "walmartpole.png",
+  "orientations": [
     {
-      "dualImage" : "walmartpole.png:0",
-      "imagePosition" : [0, 0],
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "dualImage": "walmartpole.png:0",
+      "imagePosition": [ 0, 0 ],
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ]
     }
   ],
-	
-	"animation" : "walmartpole.animation",
-  "animationParts" : {
-    "pole" : "walmartpole.png"
+
+  "animation": "walmartpole.animation",
+  "animationParts": {
+    "pole": "walmartpole.png"
   },
-	"animationPosition" : [0, 0],
-	
-  "scripts" : [ "walmartpole.lua" ],
-  "scriptDelta" : 0
+  "animationPosition": [ 0, 0 ],
+
+  "scripts": [ "walmartpole.lua" ],
+  "scriptDelta": 0
 }
