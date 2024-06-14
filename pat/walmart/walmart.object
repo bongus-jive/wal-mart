@@ -29,7 +29,7 @@
   "inventoryIcon": "icon.png",
   "orientations": [
     {
-      "imageLayers": [ { "image": "walmart_left.png:<color>", "fullbright": true }, { "image": "walmart_left_lit.png:<color>" } ],
+      "imageLayers": [ { "image": "walmart_left.png:<color>" }, { "image": "walmart_left_lit.png:<color>", "fullbright": true } ],
       "direction": "left",
 
       "lightPosition": [ -2, 4 ],
@@ -42,7 +42,7 @@
       "anchors": [ "bottom" ]
     },
     {
-      "imageLayers": [ { "image": "walmart_right.png:<color>", "fullbright": true }, { "image": "walmart_right_lit.png:<color>" } ],
+      "imageLayers": [ { "image": "walmart_right.png:<color>" }, { "image": "walmart_right_lit.png:<color>", "fullbright": true } ],
       "direction": "right",
 
       "lightPosition": [ 1, 4 ],
