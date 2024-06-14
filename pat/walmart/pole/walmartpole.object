@@ -28,5 +28,5 @@
 	"animationPosition" : [0, 0],
 	
   "scripts" : [ "walmartpole.lua" ],
-  "scriptDelta" : 60
+  "scriptDelta" : 0
 }
