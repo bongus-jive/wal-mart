@@ -3,7 +3,6 @@
   "rarity": "Legendary",
   "price": 6,
   "category": "food",
-  "eventCategory": "eventCrop",
   "inventoryIcon": "almond.png",
   "description": "sad",
   "shortdescription": "almond",
