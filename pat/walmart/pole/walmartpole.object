@@ -15,7 +15,7 @@
   "orientations" : [
     {
       "dualImage" : "walmartpole.png:0",
-      "imagePosition" : [-5, 0],
+      "imagePosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -25,7 +25,7 @@
   "animationParts" : {
     "pole" : "walmartpole.png"
   },
-	"animationPosition" : [-5, 0],
+	"animationPosition" : [0, 0],
 	
   "scripts" : [ "walmartpole.lua" ],
   "scriptDelta" : 60
